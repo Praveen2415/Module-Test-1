@@ -54,8 +54,8 @@ playerScoreDisplay.textContent = playerScore;
 pcScoreDisplay.textContent = pcScore;
 
 function updatePage(player, computer, status) {
-    document.querySelector('.player-choice img').src = `./assets/${player}.png`;
-    document.querySelector('.pc-choice img').src = `./assets/${computer}.png`;
+    document.querySelector('.player-choice img').src = `./${player}.png`;
+    document.querySelector('.pc-choice img').src = `./${computer}.png`;
 
     const resultText = document.querySelector('.won-lost');
     const nextBtn = document.querySelector('#next-btn');
