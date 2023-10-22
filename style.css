@@ -70,7 +70,7 @@ body{
     flex-wrap: wrap;
     margin-top: 5%;
     justify-content: center;
-    background-image: url(./assets/bg-triangle.svg);
+    background-image: url(./bg-triangle.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -253,7 +253,7 @@ ul li{
     justify-content: center;
     align-items: center;
     width: 80vw;
-    background-image: url(./assets/hurray-bg.png);
+    background-image: url(./hurray-bg.png);
     background-position: top;
     background-repeat: no-repeat;
 }
